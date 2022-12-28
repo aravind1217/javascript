@@ -1,0 +1,45 @@
+Apartment Hunting
+
+1) using (inf) infinty  to get the lowest value 
+
+looping through the blocks and reqs 
+like (-inf,-inf,-inf,-inf,-inf,)
+reqs (gym,store,school)
+
+while looping
+getting min value that is inf, distance between absolute value of (index of blocks)
+and through index(i) of blocks and getting max values 
+
+[1, -inf, -inf, -inf, -inf]
+[1, -inf, -inf, -inf, -inf]
+[4, -inf, -inf, -inf, -inf]
+[4, 0, -inf, -inf, -inf]
+[4, 1, -inf, -inf, -inf]
+[4, 3, -inf, -inf, -inf]
+[4, 3, 0, -inf, -inf]
+[4, 3, 0, -inf, -inf]
+[4, 3, 2, -inf, -inf]
+[4, 3, 2, 1, -inf]
+[4, 3, 2, 1, -inf]
+[4, 3, 2, 1, -inf]
+[4, 3, 2, 1, 2]
+[4, 3, 2, 1, 2]
+[4, 3, 2, 1, 2]
+
+
+this will takes place when done over loops
+
+
+then the function  getIndexAtMinValue will get the Min values
+
+
+float (inf) value gives the lowest value
+so  while looping through the len array
+if  currentvalue < float(inf)
+
+then the min value == index of i
+
+
+it will returns 3
+
+
